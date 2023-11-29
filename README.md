@@ -5,17 +5,11 @@ Contains lots of boiler-plate code for creating nodes in Curvy Generator Graph.
 
 ## Road Generator
 
-Main script that sets up all components for curvy splines generator stuff.
-
-## Road Data
-
-A scriptable object that has settings of spline and plugin. Can be assign to Road Generator.
-
-![](Img/roadData.png)
+Main component that sets up all other components for curvy splines generator stuff.
 
 ## Road Part
 
-Can be added and removed from Road Generator script by pressing Add New and Remove Last(removing latest added) Buttons.
+Can be added and removed from Road Generator component by pressing Add New and Remove Last(removing latest added) Buttons.
 
 A Road Part is a way to Deform spline road mesh into slices. Start position and Road Lenght can be altered to make empty spaces on the level. Start or End positions of the road part can have their own objects placed automatically. These objects are set from road data. 
 
@@ -28,7 +22,7 @@ You can see three different road part in image bellow:
 
 ## Object Placer
 
-This script can be added from Road Generator to achive easy object placement capability. Add new object group and place collectables or just a single door along the spline with various settings. 
+This component can be added from Road Generator to achive easy object placement capability. Add new object group and place collectables or just a single door along the spline with various settings. 
 
 ![](Img/objectplacer.gif)
 
@@ -38,3 +32,10 @@ This component enables you to direct the spline path to your need. Adding left a
 
 
 ![](Img/pathgenerator.gif)
+
+
+## Road Data
+
+A scriptable object that has settings of spline and plugin. Can be assign to Road Generator.
+
+![](Img/roadData.png)
