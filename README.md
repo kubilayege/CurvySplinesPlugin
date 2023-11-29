@@ -1,7 +1,7 @@
 ## CurvySplines Level Editor Plugin
 
 A plugin that uses Curvy Spline v7.1.2 to easily create mobile runner style levels in a non-destructive way.
-
+Contains lots of boiler-plate code for creating nodes in Curvy Generator Graph. 
 
 ## Road Generator
 
