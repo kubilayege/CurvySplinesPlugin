@@ -24,7 +24,7 @@ It was on my todo list to make it more customizable by assigning these prefabs t
 
 You can see three different road part in image bellow:
 
-![](Img/roadPart.png)
+![](Img/roadGenerator.gif)
 
 ## Object Placer
 
